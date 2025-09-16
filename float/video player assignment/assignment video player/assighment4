@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>youtube alike player</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4efef;
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        .player {
+            width:70%;
+        }
+        .video-container {
+            width :70%;
+            display: inline-block;
+            vertical-align: top;
+            padding: 1em 0;
+        }
+        .video{
+        width: 70%;  
+        }
+        .video-list {
+            width: 40%;
+        }
+        .video-list ul {
+            padding: 0 1rem;
+            float: right;
+            display: inline-block;
+            vertical-align: top;
+        }      
+        .video-list li {
+            list-style: none;
+
+        }
+        .video-list video {
+            width: 50%;
+        }
+        .video-list p {
+            width: 30%;
+            padding: 0.5em 0;
+        }
+        .video-list  span {
+            font-weight: 600;
+        }
+        .video-list ,p, video {
+            display: inline-block;
+        }
+        
+            
+
+    </style>
+</head>
+<body>
+    <h1>Welcome to Assignment 4</h1>
+    <p>video player assignment.</p>
+    <div class="player">
+        <div class="video-container">
+            <video class="video" controls >
+          <source src="video player assignment\SsVl3njKRMaS0l59TtGH_videos\big_buck_bunny_720p_10mb.mp4">
+            </video>
+            <h2> animated cartoon  for children | 2025 </h2>
+        </div>
+    <div class="video-list">
+        <ul>
+            <li>
+                <video>
+                <source src="video player assignment\SsVl3njKRMaS0l59TtGH_videos\456540_Thailand_Bangkok_1920x1080.mp4" alt="thumbnail">
+                </video>
+                <p>
+                    <span>short discription of <br>video 1</span>
+                </p>
+            </li>
+            <li>
+                <video>
+                <source src="video player assignment\SsVl3njKRMaS0l59TtGH_videos\4879375_Gyps Fulvus_Griffon Vulture_3840x2160.mp4" alt="thumbnail">
+            </video>
+            
+            <p><span>short discription of <br>video 2</span></p>
+            </li>
+            <li>
+                <video>
+                <source src="video player assignment\SsVl3njKRMaS0l59TtGH_videos\6356499_Herd_Afghanistan_3840x2160.mp4" alt="thumbnail">
+            </video>
+            <p><span>short discription of <br> video 3 </span></p>
+            </li>
+        </ul>
+        </div>
+    </div>
+</body>
+</html>
